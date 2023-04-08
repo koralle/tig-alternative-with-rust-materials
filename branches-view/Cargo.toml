@@ -8,5 +8,6 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.70"
 git2 = "0.17.0"
+nix = "0.26.2"
 structopt = "0.3.26"
 thiserror = "1.0.40"
