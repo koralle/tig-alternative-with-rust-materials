@@ -3,7 +3,7 @@ use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
 #[structopt(name = "tig")]
-struct Opt {
+pub struct Opt {
     #[structopt(short, long, parse(from_os_str))]
-    path: PathBuf,
+    pub path: PathBuf,
 }
