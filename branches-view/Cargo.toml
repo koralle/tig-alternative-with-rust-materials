@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.70"
+crossterm = { version = "0.26.1", features = ["event-stream", "serde", "filedescriptor"] }
 git2 = "0.17.0"
 nix = "0.26.2"
 structopt = "0.3.26"
